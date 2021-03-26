@@ -1,0 +1,88 @@
+
+header{
+    width: 1200px;
+    height: 250px;
+    margin: auto;
+    background-color: yellow;
+
+}
+
+nav{
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    background-color: green;
+    
+}
+
+#derecha{
+    width: 400px;
+    height: 100px;
+    background-color: greenyellow;
+    float: left;
+}
+#izquierda{
+    width: 400px;
+    height: 100px;
+    background-color: cyan;
+    float: left;
+}
+#centro{
+    width: 400px;
+    height: 100px;
+    background-color: cornflowerblue;
+    float: left;
+}
+
+main{
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    background-color: greenyellow;
+}
+
+#derecho{
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    background-color: rgb(243, 198, 181);
+    float: left;
+}
+
+#izquierdo{
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    background-color: orangered;
+    float: left;
+}
+
+aside{
+    width: 1200px;
+    height: 250px;
+    margin: auto;
+    background-color: hotpink;
+}
+
+#secaside1{
+    width: 200px;
+    height: 250px;
+    float: left;
+    background-color: rgb(33, 211, 211);
+}
+#secaside2{
+    width: 200px;
+    height: 250px;
+    float: left; 
+    background-color: rgb(24, 116, 116);
+}
+
+
+
+footer{
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    background-color: black;
+    
+}

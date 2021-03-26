@@ -1,0 +1,49 @@
+#contenedor{
+    display: grid;
+    grid-template-columns: 1f 1f 1f 1f;
+    grid-template-rows: 350px 125px 500px 50px ;
+    border: 1px black solid;
+    text-align: center;
+}
+header{
+    grid-column: 1 / span 4;
+    background-color: yellow;
+}
+
+.menunaranja{
+    grid-column: 1 / span 1;     
+    background-color: tomato;
+}
+.menugris{
+    grid-column: 2 / span 1;   
+    background-color: rgb(105, 98, 97);
+}
+.menunaranja2{
+    grid-column: 3 / span 1;    
+    background-color: tomato;
+}
+.menugris2{
+    grid-column: 4 / span 1;
+    background-color: rgb(105, 98, 97);
+}
+
+section{
+    grid-column: 1 / span 1;
+    background-color: yellowgreen;
+}
+
+article{
+    grid-column: 2 / span 2;
+    background-color: rgb(250, 252, 246);
+}
+
+aside{
+    grid-column: 4 / span 1;
+    background-color: yellowgreen;
+}
+
+footer{
+    grid-column: 1 / span 4;
+    background-color: rgb(17, 17, 16);
+    color: thistle;
+}
